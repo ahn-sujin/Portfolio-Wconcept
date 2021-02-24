@@ -1,7 +1,7 @@
 # Portfolio-Wconcept
 
 
-This work was created by copying and implementing an existing site.
+This work was created by copying and implementing an existing site. (by ahn-sujin)
 
 
 ## About
