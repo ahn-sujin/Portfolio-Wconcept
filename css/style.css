@@ -43,10 +43,13 @@ button{background: none; border: none; outline: none;}
 #gnb .left>li .sub_menu_depth>li>p{font-size:11px; line-height: 20px; color: #777;}
 
 #gnb .left>li .promotion_menu>li{float:left; width:11%; padding-top:40px;}
+#gnb .left>li .promotion_menu.women{width:50%;}
+
+
 #gnb .left>li .promotion_menu>li>a{display: block;}
 #gnb .left>li .promotion_menu>li>a .caption>p{text-overflow: ellipsis; white-space: nowrap; word-wrap: normal; overflow: hidden; font-size:11px; color: #777; margin-bottom: 5px;}
-#gnb .left>li .promotion_menu>li>a .caption>p.brand{font-size:13px; color: #000; margin:10px 0;}
-#gnb .left>li .promotion_menu>li>a .caption>p.price{font-size: 13px; color: #000; margin-top: 20px;}
+#gnb .left>li .promotion_menu>li>a .caption>p.brand{font-size:13px; font-weight:500; color: #000; margin:10px 0;}
+#gnb .left>li .promotion_menu>li>a .caption>p.price{font-size: 13px; font-weight:500; color: #000; margin-top: 20px;}
 
 #gnb .right>li{float:left; padding:0 20px;}
 #gnb .right>li>a{display: block; font-size:14px; color: #fff; font-weight: 600; line-height: 70px; }
