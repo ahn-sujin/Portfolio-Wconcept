@@ -1,2 +1,2 @@
 # Portfolio-Wconcept
-copy site 
+This work was created by copying and implementing an existing site.
