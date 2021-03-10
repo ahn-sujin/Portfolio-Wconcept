@@ -108,9 +108,11 @@ button{background: none; border: none; outline: none;}
 #new .swiper-container .swiper-slide-active .pic{position: absolute; top:7%; transform: scale(1.2);}
 #new .swiper-container .swiper-slide-active .msg{position: absolute; top:80%;  }
 
+#new .swiper-button-prev{left:0%;}
+#new .swiper-button-next{right:0%;}
+
 /*-------make---------------------------------------------------------------*/
 #make{padding-top:0;}
-
 #make .swiper-container{width:100%;}
 #make .swiper-container .swiper-slide{width:100%;}
 
@@ -126,6 +128,9 @@ button{background: none; border: none; outline: none;}
 
 #make .swiper-container .swiper-slide .msg .before{font-size:16px; color: #444;}
 
+#make .swiper-button-prev{left:0%;}
+#make .swiper-button-next{right:0%;}
+
 /*-------exclusive---------------------------------------------------------------*/
 #exclusive{padding-top:0;}
 
@@ -136,8 +141,61 @@ button{background: none; border: none; outline: none;}
 #exclusive .top  .swiper-slide .pic{width:460px; height:100%; background: #ff4000; overflow: hidden; margin: 0 auto; }
 #exclusive .top  .swiper-slide .pic img{width:150%;}
 
+#exclusive .top .swiper-button-prev{left:25%; }
+#exclusive .top .swiper-button-next{right:25%; }
 
-#exclusive .bottom{width:100%; height:300px; border:1px solid #000; margin-top:20px;}
+
+#exclusive .bottom{width:100%; height:400px; margin-top:20px;}
+#exclusive .bottom .box{float:left; width:10.75%; margin-right:2%;}
+#exclusive .bottom .box:last-of-type{margin-right:0;}
+
+#exclusive .bottom .box .pic{position: relative; width:100%;}
+#exclusive .bottom .box .pic>img{width:100%;}
+#exclusive .bottom .box .pic .like{position: absolute; top:0; right:0; padding:10px;}
+#exclusive .bottom .box .pic .like>i{display: block; font-size:20px; color: #fff;}
+
+#exclusive .bottom .box .msg{width:100%; margin-top:20px;}
+#exclusive .bottom .box .msg .product_name{font-size:15px; font-weight:500;}
+#exclusive .bottom .box .msg .category{font-size:13px; color: #444; margin:15px 0; text-overflow: ellipsis; white-space: nowrap; word-wrap: normal; overflow: hidden;}
+#exclusive .bottom .box .msg .info{font-size:13px; color: #777; margin-bottom: 30px; text-overflow: ellipsis; white-space: nowrap; word-wrap: normal; overflow: hidden;}
+#exclusive .bottom .box .msg .after{font-size:16px; color: #444; margin-right:10px;}
+#exclusive .bottom .box .msg .before{font-size:13px; color: #777; text-decoration: line-through;}
+#exclusive .bottom .box .msg .sale{float:right; font-size:16px; color: #ff4000;}
+
+/*-------beauty---------------------------------------------------------------*/
+#beauty{padding-top:0;}
+#beauty .left{position: relative; float:left; width:40%; height:800px;}
+#beauty .left .swiper-container{position: absolute; top:0; left:0; width:100%; height:100%;}
+#beauty .left .swiper-slide{width:100%}
+#beauty .left .swiper-slide .pic{width:100%;}
+#beauty .left .swiper-slide .pic>img{width:100%;}
+
+#beauty .left .swiper-slide .msg{position: absolute; top:50%; left:50%; transform: translate(-50%,-50%);}
+#beauty .left .swiper-slide .msg .copy{text-align: center; font-size:50px; color: #fff; line-height: 55px; font-weight: bold;}
+#beauty .left .swiper-slide .msg .desc{text-align: center; font-size: 16px; color: #fff; line-height: 24px; margin: 20px 0 40px;}
+#beauty .left .swiper-slide .msg .btn{margin: 0 auto; text-align: center; width:150px; height:50px; border: 1px solid #fff; font-size:16px; line-height: 50px; color: #fff;}
+
+#beauty .right{float:right; width:57%; height:800px;}
+#beauty .right .top{margin-bottom:40px;}
+#beauty .right .top::after,
+#beauty .right .bottom::after{content:''; display: block; clear: both;}
+
+#beauty .right .top .box,
+#beauty .right .bottom .box{float:left; width:18.4%; margin-right:2%;}
+
+#beauty .right .top .box:last-of-type,
+#beauty .right .bottom .box:last-of-type{margin-right:0%;}
+
+#beauty .right .box .pic,
+#beauty .right .box .pic>img{width:100%;}
+
+#beauty .right .box .msg{width:100%; margin-top:20px;}
+#beauty .right .box .msg .product_name{font-size:15px; font-weight:500;}
+#beauty .right .box .msg .category{font-size:12px; color: #444; margin:10px 0; text-overflow: ellipsis; white-space: nowrap; word-wrap: normal; overflow: hidden;}
+#beauty .right .box .msg .info{font-size:12px; color: #777; margin-bottom: 30px; text-overflow: ellipsis; white-space: nowrap; word-wrap: normal; overflow: hidden;}
+#beauty .right .box .msg .after{font-size:16px; color: #444; margin-right:10px;}
+#beauty .right .box .msg .before{font-size:12px; color: #777; text-decoration: line-through;}
+#beauty .right .box .msg .sale{float:right; font-size:16px; color: #ff4000;}
 
 
 

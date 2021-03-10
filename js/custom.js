@@ -60,5 +60,21 @@ $(function(){
 
     });
 
+    var swiper = new Swiper('#beauty .pick_swiper', {
+
+        direction: 'horizontal',
+        loop: true,
+
+        pagination: {
+            el: '#beauty .swiper-pagination',
+        },
+
+        navigation: {
+            nextEl: '#beauty .swiper-button-next',
+            prevEl: '#beauty .swiper-button-prev',
+        },
+
+    });
+
 
 });
