@@ -17,17 +17,46 @@ $(function(){
 
 
 /*----------swiper------------------------------------------------------*/    
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('#new .new_swiper', {
 
-        direction: 'vertical',
+        slidesPerView: 5,
+        spaceBetween: 10,
+        slidesPerGroup: 1,
         loop: true,
-    
+        centeredSlides: true,
 
         navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '#new .swiper-button-next',
+        prevEl: '#new .swiper-button-prev',
         },
+    });
+
+    var swiper = new Swiper('#make .make_swiper', {
+
+        slidesPerView: 7,
+        spaceBetween: 10,
+        slidesPerGroup: 1,
+        loop: true,
     
+        navigation: {
+        nextEl: '#make .swiper-button-next',
+        prevEl: '#make .swiper-button-prev',
+        },
+
+    });
+
+    var swiper = new Swiper('#exclusive .exclu_swiper', {
+
+        slidesPerView: 3,
+        spaceBetween: 10,
+        slidesPerGroup: 1,
+        loop: true,
+        centeredSlides: true,
+
+        navigation: {
+        nextEl: '#exclusive .swiper-button-next',
+        prevEl: '#exclusive .swiper-button-prev',
+        },
 
     });
 
